@@ -104,7 +104,7 @@ include "header.php";
         
         <!-- Email Address input (used as username) -->
         <label>Email Address</label>
-        <input type="email" name="username" value="<?php echo htmlspecialchars($username); ?>" placeholder ="e.g. Juan.Dela.Cruz@example.com" required>
+        <input type="email" name="username" value="<?php echo htmlspecialchars($username); ?>" placeholder ="e.g. juan.delacruz@example.com" required>
         
         <!-- Password input with validation requirements -->
         <label>Password</label>

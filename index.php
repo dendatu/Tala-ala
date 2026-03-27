@@ -64,7 +64,7 @@ body.dark .hero {
 }
 
 .hero h1 {
-    font-size: 2.8rem;
+    font-size: 3.5rem;
     margin-bottom: 0.75rem;
     background: linear-gradient(135deg, #ffffff, #f0f0ff);
     -webkit-background-clip: text;

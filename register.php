@@ -39,14 +39,6 @@ if (isset($_POST['register'])) {
         $errors[] = "All fields are required.";
     }
     
-    // ============================================
-    // EMAIL VALIDATION
-    // ============================================
-    // Ensure username is a valid email format (required for login)
-    $emailPattern = "/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/";
-    if (!preg_match($emailPattern, $username)) {
-        $errors[] = "Please enter a valid email address.";
-    }
     
     // ============================================
     // PASSWORD VALIDATION

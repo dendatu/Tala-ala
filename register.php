@@ -100,22 +100,22 @@ include "header.php";
     <form method="POST">
         <!-- Full Name input -->
         <label>Full Name</label>
-        <input type="text" name="fullname" value="<?php echo htmlspecialchars($fullname); ?>" required>
+        <input type="text" name="fullname" value="<?php echo htmlspecialchars($fullname); ?>" placeholder ="e.g. Juan Dela Cruz" required>
         
         <!-- Email Address input (used as username) -->
         <label>Email Address</label>
-        <input type="email" name="username" value="<?php echo htmlspecialchars($username); ?>" required>
+        <input type="email" name="username" value="<?php echo htmlspecialchars($username); ?>" placeholder ="e.g. Juan.Dela.Cruz@example.com" required>
         
         <!-- Password input with validation requirements -->
         <label>Password</label>
-        <input type="password" name="password" required>
+        <input type="password" name="password"  placeholder ="e.g., MySecurePass123!" required>
         <small style="color: var(--text-secondary); font-size: 0.75rem;">
             Minimum 8 characters, 1 uppercase, 1 number, 1 special character
         </small>
         
         <!-- Confirm Password input -->
         <label>Confirm Password</label>
-        <input type="password" name="confirm_password" required>
+        <input type="password" name="confirm_password" placeholder ="e.g., MySecurePass123!" required>
         
         <!-- Submit button -->
         <button type="submit" name="register" class="btn" style="width: 100%;">Register</button>

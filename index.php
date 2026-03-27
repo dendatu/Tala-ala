@@ -98,7 +98,7 @@ body.dark .hero p {
 }
 
 .hero strong {
-    background: linear-gradient(135deg, #ffd966, #ffb347);
+    background: linear-gradient(135deg, #ffd966, #faea8e);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;

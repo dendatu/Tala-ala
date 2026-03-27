@@ -56,7 +56,7 @@ $dark_mode = isset($_COOKIE['darkmode']) && $_COOKIE['darkmode'] === 'enabled';
             --gradient-secondary: linear-gradient(135deg, var(--gold), var(--yellow));
             --gradient-sky: linear-gradient(135deg, var(--blue-sky), var(--purple-twilight));
             --gradient-sunset: linear-gradient(135deg, var(--gold-sunset), var(--yellow-star));
-            --gradient-hero: linear-gradient(135deg, var(--blue) 0%, var(--purple) 50%, var(--gold) 100%);
+            --gradient-hero: linear-gradient(135deg, rgba(133, 171, 233, 0.85), rgba(133, 109, 194, 0.85), rgba(129, 153, 161, 0.85));
             
             /* UI Colors */
             --accent: var(--blue);

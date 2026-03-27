@@ -83,7 +83,7 @@ body.dark .hero h1 {
 }
 
 .hero p {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     color: #ffffff;
     max-width: 650px;
     margin: 0 auto 1.5rem;

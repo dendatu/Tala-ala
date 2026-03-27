@@ -1,4 +1,8 @@
 <?php
+/**
+ * login.php - User authentication page
+ * Validates user credentials and starts a session upon successful login.
+ */
 session_start();
 include "db.php";
 

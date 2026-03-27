@@ -114,7 +114,7 @@ body.dark .hero p {
 .hero .btn-secondary {
     background: rgba(255, 255, 255, 0.95);
     border: 1px solid rgba(255, 255, 255, 0.3);
-    color: var(--blue-dark);
+    color: #0e46bf;
 }
 
 .hero .btn-secondary:hover {

@@ -44,7 +44,7 @@ body.dark .hero {
 }
 
 .hero-logo {
-    margin-bottom: 1rem;
+    margin-bottom: 0.1rem;
     animation: fadeInUp 0.5s ease-out;
 }
 

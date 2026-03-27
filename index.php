@@ -83,7 +83,7 @@ body.dark .hero h1 {
 }
 
 .hero p {
-    font-size: 1rem;
+    font-size: 1.3rem;
     color: #ffffff;
     max-width: 650px;
     margin: 0 auto 1.5rem;
@@ -191,9 +191,8 @@ body.dark .hero p {
     
     <h1>Tala-ala</h1>
     <p>
-        A <strong>personal digital diary</strong> where every thought becomes a memory. 
-        Securely record <strong>(tala)</strong> your ideas, experiences, and reflections— 
-        and turn them into meaningful memories <strong>(ala-ala)</strong> you can revisit anytime.
+        A <strong>personal digital diary</strong> where you <strong>tala</strong> (record) your thoughts 
+        and turn them into <strong>ala-ala</strong> (memories) you can revisit anytime.
     </p>
 
     <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
